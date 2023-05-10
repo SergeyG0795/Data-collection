@@ -7,3 +7,4 @@ class LabirintItem(scrapy.Item):
     price = scrapy.Field()
     discount_price = scrapy.Field()
     author = scrapy.Field()
+    rate = scrapy.Field()
